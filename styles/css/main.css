@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center; }
+  align-items: baseline; }
 
 .titleCard {
   /* Flex */
@@ -14,9 +14,15 @@
 .links {
   /* Flex */
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center; }
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* Content */ }
+  .links a {
+    margin: 0 6px 0 6px; }
+    .links a i {
+      color: #000;
+      font-size: 1.5em; }
 
 .info {
   /* Content */
@@ -24,6 +30,11 @@
 
 .name {
   /* Content */
-  font-size: 24px; }
+  margin-bottom: 6px;
+  font-size: 36px;
+  border-bottom: 2px solid currentColor; }
+
+.program {
+  font-size: 18px; }
 
 /*# sourceMappingURL=main.css.map */
