@@ -24,7 +24,7 @@
   a {
     margin: 0 6px 0 6px;
     i {
-      color: #000;
+      color: black;
       font-size: 1.5em;
     }
   }
@@ -40,7 +40,7 @@
   margin-bottom: 6px;
   font-size: 36px;
   // Underline via border-bottom
-  border-bottom: 2px solid currentColor;
+  border-bottom: 2px solid black;
 }
 
 .program {

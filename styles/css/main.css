@@ -21,7 +21,7 @@
   .links a {
     margin: 0 6px 0 6px; }
     .links a i {
-      color: #000;
+      color: black;
       font-size: 1.5em; }
 
 .info {
@@ -32,7 +32,7 @@
   /* Content */
   margin-bottom: 6px;
   font-size: 36px;
-  border-bottom: 2px solid currentColor; }
+  border-bottom: 2px solid black; }
 
 .program {
   font-size: 18px; }
