@@ -1,0 +1,32 @@
+.home {
+  /* Flex */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.titleCard {
+  /* Flex */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.links {
+  /* Flex */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.info {
+  /* Content */
+  margin: 12px 0 12px 0;
+}
+
+.name {
+  /* Content */
+  font-size: 24px;
+}
