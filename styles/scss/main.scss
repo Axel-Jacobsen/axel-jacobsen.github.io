@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Fanwood+Text|Julius+Sans+One|Marcellus+SC|Merriweather|Playfair+Display|Playfair+Display+SC|Poppins|Quattrocento|Vollkorn+SC');
+
+/**
+font-family: 'Merriweather', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quattrocento', serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Vollkorn SC', serif;
+font-family: 'Marcellus SC', serif;
+font-family: 'Fanwood Text', serif;
+*/
+
+body {
+  // font-family: 'Merriweather', serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+
+}
+
+.a7 {font-family: 'Vollkorn SC', serif;}
+.a8 {}
+
 .home {
   /* Flex */
   display: flex;
@@ -36,6 +61,8 @@
 }
 
 .name {
+  /* Font */
+  font-family: 'Marcellus SC', serif;
   /* Content */
   margin-bottom: 6px;
   font-size: 36px;
@@ -44,5 +71,6 @@
 }
 
 .program {
+  font-family: 'Marcellus SC', serif;
   font-size: 18px;
 }
