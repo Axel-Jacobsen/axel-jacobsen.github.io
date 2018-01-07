@@ -1,61 +1,29 @@
-@import url("https://fonts.googleapis.com/css?family=Fanwood+Text|Julius+Sans+One|Marcellus+SC|Merriweather|Playfair+Display|Playfair+Display+SC|Poppins|Quattrocento|Vollkorn+SC");
-/**
-font-family: 'Merriweather', serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Quattrocento', serif;
-font-family: 'Playfair Display SC', serif;
-font-family: 'Julius Sans One', sans-serif;
-font-family: 'Vollkorn SC', serif;
-font-family: 'Marcellus SC', serif;
-font-family: 'Fanwood Text', serif;
-*/
 body {
-  font-size: 18px;
-  line-height: 1.5;
-  color: #333;
   background-color: #EFE5DC; }
 
-.home {
-  /* Flex */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: baseline; }
-
-.titleCard {
-  /* Flex */
+.total {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; }
+  align-items: center; }
 
-.links {
-  /* Flex */
+.searchContainer {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  /* Content */ }
-  .links a {
-    margin: 0 6px 0 6px; }
-    .links a i {
-      color: black;
-      font-size: 1.5em; }
+  justify-content: center; }
 
-.info {
-  /* Content */
-  margin: 12px 0 12px 0; }
+.search {
+  padding: 1rem;
+  border: 0px none transparent;
+  outline: none;
+  background-color: transparent;
+  font-size: 2rem;
+  text-align: center; }
 
-.name {
-  /* Font */
-  font-family: 'Marcellus SC', serif;
-  /* Content */
-  margin-bottom: 6px;
-  font-size: 36px;
-  border-bottom: 2px solid black; }
+.imgContainer {
+  display: flex;
+  justify-content: center; }
 
-.program {
-  font-family: 'Vollkorn SC', serif;
-  font-size: 18px; }
+.centerImage {
+  height: 500px;
+  width: auto; }
 
 /*# sourceMappingURL=main.css.map */

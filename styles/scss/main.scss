@@ -1,73 +1,41 @@
-@import url('https://fonts.googleapis.com/css?family=Fanwood+Text|Julius+Sans+One|Marcellus+SC|Merriweather|Playfair+Display|Playfair+Display+SC|Poppins|Quattrocento|Vollkorn+SC');
-
-/**
-font-family: 'Merriweather', serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Quattrocento', serif;
-font-family: 'Playfair Display SC', serif;
-font-family: 'Julius Sans One', sans-serif;
-font-family: 'Vollkorn SC', serif;
-font-family: 'Marcellus SC', serif;
-font-family: 'Fanwood Text', serif;
-*/
-
 body {
-  // font-family: 'Merriweather', serif;
-  font-size: 18px;
-  line-height: 1.5;
-  color: #333;
-  background-color: #EFE5DC;
+    // background
+    background-color: #EFE5DC;
 }
 
-.home {
-  /* Flex */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: baseline;
+.total {
+    // flex
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.titleCard {
-  /* Flex */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+.searchContainer {
+    //flex
+    display: flex;
+    justify-content: center
 }
 
-.links {
-  /* Flex */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-
-  /* Content */
-  a {
-    margin: 0 6px 0 6px;
-    i {
-      color: black;
-      font-size: 1.5em;
-    }
-  }
+.search {
+    // structure
+    padding: 1rem;
+    border: 0px none transparent;
+    outline: none;
+    // background
+    background-color: transparent;
+    // text
+    font-size: 2rem;
+    text-align: center;
 }
 
-.info {
-  /* Content */
-  margin: 12px 0 12px 0;
+.imgContainer {
+    // flex
+    display: flex;
+    justify-content: center;
 }
 
-.name {
-  /* Font */
-  font-family: 'Marcellus SC', serif;
-  /* Content */
-  margin-bottom: 6px;
-  font-size: 36px;
-  // Underline via border-bottom
-  border-bottom: 2px solid black;
-}
-
-.program {
-  font-family: 'Vollkorn SC', serif;
-  font-size: 18px;
+.centerImage {
+    // structure
+    height: 500px;
+    width: auto;
 }
