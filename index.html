@@ -3,6 +3,7 @@
 <head>
      <title>Home</title>
      <script src="scripts/require.js"></script>
+     <script src="scripts/search.js"></script>
      <script src="scripts/weather.js"></script>
      <script src="scripts/imagepicker.js"></script>
      <link rel="stylesheet" href="styles/css/main.css">
@@ -10,7 +11,9 @@
 <body>
     <div class="total">
         <div class="searchContainer">
-            <input class="search" type="text" autofocus>
+            <form method="get" action="http://www.google.com/search">
+                <input class="search" type="text" id="searchBox" onkeypress="search(query)" autofocus>
+            </form>
         </div>
         <div class="imgContainer">
             <img src="" alt="A saucy little image, no?" class="centerImage" id="background">
