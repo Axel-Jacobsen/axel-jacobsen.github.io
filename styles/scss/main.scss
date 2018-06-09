@@ -8,13 +8,6 @@ body {
   background-color: #EFE5DC;
 }
 
-.home {
-  // Flex
-  display: flex;
-  flex-direction: column;
-
-}
-
 .homeheader {
   // Flex
   display: flex;
@@ -28,28 +21,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-}
-
-.medialinks {
-  // Flex
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-
-  // Content
-  a {
-    margin: 0 6px 0 6px;
-    i {
-      color: black;
-      font-size: 1.5em;
-    }
-  }
-}
-
-.info {
-  // Content
-  margin: 12px 0 12px 0;
 }
 
 .name {
@@ -67,15 +38,56 @@ body {
   font-family: 'Quattrocento', serif;
 }
 
-.sitelinks {
-    // Flex
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    a {
-        // text
-        font-family: 'Quattrocento', sans-serif;
-        color: #333;
-        border-bottom: 0;
+.rowTings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.wide {
+  width: 70%;
+  justify-content: space-between;
+}
+
+.medialinks {
+
+  // Content
+  a {
+    margin: 0 6px 0 6px;
+    i {
+      color: black;
+      font-size: 1.5em;
     }
+  }
+}
+
+.info {
+  // Content
+  margin: 12px 0 12px 0;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.personal {
+  max-width: 70%;
+  font-family: 'Quattrocento', sans-serif;
+  color: #333;
+  border-bottom: 0;
+  margin-top: 4rem;
+
+  a {
+    // text
+    font-family: 'Quattrocento', sans-serif;
+    color: rgb(0, 0, 0);
+    border-bottom: 0;
+  }
+
 }
