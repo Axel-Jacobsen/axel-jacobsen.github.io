@@ -8,9 +8,10 @@ body {
   height: 85%;
   width: 100%;
   font-size: 15px;
+  font-family: "Inconsolata";
   line-height: 1.5;
   color: #333;
-  background-color: #f0f0f0;
+  background-color: rgb(240, 240, 240);
 }
 
 .homeheader {
@@ -37,18 +38,17 @@ body {
 }
 
 .program {
-  font-family: "Inconsolata";
   font-size: 18px;
   margin: 0;
 }
 
-.rowTings {
+.row {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.colTings {
+.col {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,12 +64,8 @@ body {
   margin: 0;
 }
 
-.medialinks a {
-  margin: 0 6px 0 6px;
-}
-.medialinks a i {
-  color: black;
-  font-size: 2em;
+.medialinks {
+  align-items: end;
 }
 
 .space {
@@ -94,9 +90,10 @@ body {
   border-bottom: 0;
   margin-top: 2rem;
 }
-.personal a {
+
+a {
   font-family: "Inconsolata";
-  color: black;
+  color: rgb(0, 0, 0);
   border-bottom: 0;
 }
 
