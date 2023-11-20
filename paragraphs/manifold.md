@@ -33,7 +33,7 @@ Finally: I feel that this was fairly straight-forward - of course, I would not b
 
 Finally-finally: Maybe it would be possible to get an LLM to find correlated markets using Manifold's API? Algo would be something like "stream in market titles, use `gpt-3-turbo` to evaluate correlated markets, and automatically make these hedged trades to make a tidy profit. Since I wouldn't be using real money, I'd feel comfortable offloading most of the evaluation of markets to LLMs. The potential downside would be cost, especially if you are trying to do pairwise-comparisons! But, if you decided that you want to donate some amount to charity, and if this strategy can successfully get more than 100 Mana per $1 of API costs, you would donate more than you put in!
 
-Finale? My previous edit was at 8:40 PM PST, and around [twenty minutes later, news of Emmett Shear becoming the new OpenAI CEO](https://www.theinformation.com/articles/breaking-sam-altman-will-not-return-as-ceo-of-openai) was released. The markets flipped, and my position was looking pretty good, so I sold for a nice profit.
+Finale? My previous edit was at 8:40 PM PST, and around [twenty minutes later, news of Emmett Shear becoming the new OpenAI CEO](https://www.theinformation.com/articles/breaking-sam-altman-will-not-return-as-ceo-of-openai) was released. The markets flipped, and my position was looking pretty good, so I sold. Unfortunately I was in a rush placing more trades, and bought a bunch of "Yes", so I made significantly less than I would've otherwise. Live and learn.
 
 Finale?? Sam joined Microsoft, so the outcome (barring he doesnt create a startup anytime soon) looks like NN. Glad I sold!
 
