@@ -22,10 +22,11 @@ of Sam Altman</a> I got pulled into <a
 href="https://en.wikipedia.org/wiki/Prediction_market">prediction
 markets</a>, specifically <a
 href="https://manifold.markets/">Manifold</a>. It was great for both
-following news as it came out (answering “why did that market just pop
-up?”) and making some minor profits off of weirder, most-likely false
-predictions. Overall, I was suprised with the ease with which a novice
-predictor (like myself) could take profits off of these questions.</p>
+following news as it came out (answering questions like “why did that
+market just pop up?”) and making some minor profits off of weirder, most
+likely false predictions. Overall, I was surprised with the ease with
+which a novice predictor (like myself) could take profits off of these
+questions.</p>
 <p>There are also pretty impressive arbitrage<a href="#fn1"
 class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>
 opportunities. For example, I found the following two questions:</p>
@@ -39,12 +40,12 @@ href="https://manifold.markets/Soli/will-sam-altman-start-a-new-company?r=U29saQ
 Sam Altman start a new company before 2025?”</a> at ~62% probability,
 119 traders and 9.8K Mana in volume</li>
 </ul>
-<p>These are most likely mutually exclusive - I would guess that the
+<p>These two are likely mutually exclusive - I would guess that the
 probability of Sam both returning to OpenAI <em>and</em> opening a new
 company would be pretty much 0. I would also guess that Sam won’t go
 work for, say, Anthropic, Grok, e.t.c., and that most likely he’d use
 his opportunity right now to start something new. These are the
-assumtions that we use for this trade.</p>
+assumptions that we use for this trade.</p>
 <p>So, let’s do some calculations on what positions we can take, and
 what the likely profit would be! Let</p>
 <ul>
@@ -60,13 +61,13 @@ live in a cabin in the woods or something.</li>
 <p>So, by betting either <code>YY</code> or <code>NN</code>, it is very
 likely (based on our assumtions) that we will be correct on at least
 <em>one</em> of the markets! If that profit is greater than the cost of
-betting in both markets, we have a tidy garunteed profit. Since both
-markets were sitting above 0.5, by betting <code>NN</code> we have a
-higher potential return, so let’s do that.</p>
-<p>For ease of calculation, lets buy 100 mana worth of <code>N</code>
-contracts in both markets, so total cost so far is 200<a href="#fn2"
-class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>
-Here’s the payout table:</p>
+betting in both markets, we have a tidy guarunteed profit. Since both
+market probabilities were above 0.5, by betting <code>NN</code> we have
+a higher potential return, so let’s do that.</p>
+<p>For ease of calculation, let’s buy 100 mana worth of <code>N</code>
+contracts in both markets, so total cost so far is 200 Mana<a
+href="#fn2" class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a> Here’s the payout table:</p>
 <table>
 <thead>
 <tr class="header">
@@ -116,11 +117,11 @@ extrinsic benefits are clout and the ability to <a
 href="https://manifold.markets/charity">donate their won Mana to
 charity</a>. Those are both valuable! But, maybe not as much as USD.</p>
 <p>Finally-finally: Maybe it would be possible to get an LLM to find
-corellated markets using Manifold’s API? Algo would be something like
+correlated markets using Manifold’s API? Algo would be something like
 “stream in market titles, use <code>gpt-3-turbo</code> to evaluate
 correlated markets, and automatically make these hedged trades to make a
 tidy profit. Since I wouldn’t be using real money, I’d feel comfortable
-offloading most of the evaluation of markets to GPTs. The potential
+offloading most of the evaluation of markets to LLMs. The potential
 downside would be cost, especially if you are trying to do
 pairwise-comparisons! But, if you decided that you want to donate some
 amount to charity, and if this strategy can successfully get more than
@@ -132,7 +133,7 @@ role="doc-endnotes">
 <li id="fn1"><p>Is this actually called arbitrage? I think it would be
 in the case where <code>YY</code> and <code>NN</code> are impossible. In
 the real world case, I guess this would be called hedging your bets?
-Dunno<a href="#fnref1" class="footnote-back"
+Dunno.<a href="#fnref1" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>I think that the optimal strategy would be to invest
 more in the less probable market and less in the more probable market so
