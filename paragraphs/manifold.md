@@ -33,6 +33,8 @@ Finally: I feel that this was fairly straight-forward - of course, I would not b
 
 Finally-finally: Maybe it would be possible to get an LLM to find correlated markets using Manifold's API? Algo would be something like "stream in market titles, use `gpt-3-turbo` to evaluate correlated markets, and automatically make these hedged trades to make a tidy profit. Since I wouldn't be using real money, I'd feel comfortable offloading most of the evaluation of markets to LLMs. The potential downside would be cost, especially if you are trying to do pairwise-comparisons! But, if you decided that you want to donate some amount to charity, and if this strategy can successfully get more than 100 Mana per $1 of API costs, you would donate more than you put in!
 
+Finale? My previous edit was at 8:40 PM PST, and around [twenty minutes later, news of Emmett Shear becoming the new OpenAI CEO](https://www.theinformation.com/articles/breaking-sam-altman-will-not-return-as-ceo-of-openai) was released. The markets flipped, and my position was looking pretty good, so I sold for a nice profit.
+
 Also, if I'm wrong anywhere or there are any details that are missing, please let me know by emailing `axelnj44` [at] `gmail` [dot] `com`.
 
 [^1]: Is this actually called arbitrage? I think it would be in the case where `YY` and `NN` are impossible. In the real world case, I guess this would be called hedging your bets? Dunno.
