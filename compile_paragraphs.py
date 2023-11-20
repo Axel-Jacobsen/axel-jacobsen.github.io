@@ -2,7 +2,12 @@
 
 import re
 
-import pypandoc
+try:
+    import pypandoc
+except ImportError as e:
+    raise ImportError(
+        "install pypandoc! compiles markdown to html for me"
+    ) from e
 
 from pathlib import Path
 
