@@ -35,7 +35,7 @@ Finally-finally: Maybe it would be possible to get an LLM to find correlated mar
 
 Finale? My previous edit was at 8:40 PM PST, and around [twenty minutes later, news of Emmett Shear becoming the new OpenAI CEO](https://www.theinformation.com/articles/breaking-sam-altman-will-not-return-as-ceo-of-openai) was released. The markets flipped, and my position was looking pretty good, so I sold. Unfortunately I was in a rush placing more trades, and bought a bunch of "Yes", so I made significantly less than I would've otherwise. Live and learn.
 
-Finale?? Sam joined Microsoft, so the outcome (barring he doesnt create a startup anytime soon) looks like NN. Glad I sold!
+Finale?? Sam joined Microsoft, so the outcome (barring he doesnt create a startup anytime soon) looks like `NN`!
 
 Also, if I'm wrong anywhere or there are any details that are missing, please let me know by emailing `axelnj44` [at] `gmail` [dot] `com`.
 
