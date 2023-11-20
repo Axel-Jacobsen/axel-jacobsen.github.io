@@ -22,19 +22,19 @@ def process_contents(contents: str) -> str:
 
 def titles_to_list(titles: list[tuple[str, Path]]) -> str:
     links = [
-        f"<li> <a href=paragraphs/{path.stem}>{title}</a> </li>"
+        f"<h3><a href={path.name}>{title}</a></h3>"
         for title, path in titles
     ]
 
     html_formatted = "\n".join(links)
-    return f"<ul>\n{html_formatted}\n</ul>"
+    return f"{html_formatted}"
 
 
 def write_html_doc(title: str, contents: str, html_path: Path):
     new_doc = (
         template
             .replace("{{title}}", title)
-            .replace("{{content}}", contents_html_formatted)
+            .replace("{{content}}", contents)
     )
 
     with open(html_path, "w") as g:
@@ -56,7 +56,7 @@ if __name__ == "__main__":
         titles_and_links.append((title, html_path))
         write_html_doc(title, contents_html_formatted, html_path)
 
-    paragraphs_title = "paragraphs<br><a href='..'>home</a>"
+    paragraphs_title = "paragraphs"
     paragraphs_contents = titles_to_list(titles_and_links)
     write_html_doc(
         paragraphs_title, paragraphs_contents, PARAGRAPHS_DIR / "paragraphs.html"
