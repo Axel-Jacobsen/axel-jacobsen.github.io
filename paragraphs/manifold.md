@@ -35,6 +35,8 @@ Finally-finally: Maybe it would be possible to get an LLM to find correlated mar
 
 Finale? My previous edit was at 8:40 PM PST, and around [twenty minutes later, news of Emmett Shear becoming the new OpenAI CEO](https://www.theinformation.com/articles/breaking-sam-altman-will-not-return-as-ceo-of-openai) was released. The markets flipped, and my position was looking pretty good, so I sold for a nice profit.
 
+Finale?? Sam joined Microsoft, so the outcome (barring he doesnt create a startup anytime soon) looks like NN. Glad I sold!
+
 Also, if I'm wrong anywhere or there are any details that are missing, please let me know by emailing `axelnj44` [at] `gmail` [dot] `com`.
 
 [^1]: Is this actually called arbitrage? I think it would be in the case where `YY` and `NN` are impossible. In the real world case, I guess this would be called hedging your bets? Dunno.
