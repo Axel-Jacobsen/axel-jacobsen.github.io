@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Major+Mono+Display|Inconsolata");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Inconsolata");
 
 html, body {
   width: 100%;
@@ -17,6 +17,16 @@ body {
 a, .contact {
   color: rgb(130, 60, 60);
   text-decoration: none;
+}
+
+table {
+ margin-left: auto;
+ margin-right: auto;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
 }
 
 .homeheader, .row {
