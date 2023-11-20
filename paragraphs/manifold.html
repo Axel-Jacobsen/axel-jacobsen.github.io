@@ -67,7 +67,9 @@ a higher potential return, so let’s do that.</p>
 <p>For ease of calculation, let’s buy 100 mana worth of <code>N</code>
 contracts in both markets, so total cost so far is 200 Mana<a
 href="#fn2" class="footnote-ref" id="fnref2"
-role="doc-noteref"><sup>2</sup></a> Here’s the payout table:</p>
+role="doc-noteref"><sup>2</sup></a><a href="#fn3" class="footnote-ref"
+id="fnref3" role="doc-noteref"><sup>3</sup></a> Here’s the payout
+table:</p>
 <table>
 <thead>
 <tr class="header">
@@ -144,6 +146,18 @@ the net profit would be the same for both. That way, expected return
 would be higher. But, for ease of explanation and just getting the trade
 in, we’ll bet 100 on each market.<a href="#fnref2" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Yea, coming back to this, I think that the main idea
+above is correct. We want to bet such that the return for outcomes
+<code>YN</code> and <code>NY</code> are equal. Let <code>R1</code>,
+<code>R2</code> be the payout rates for event 1 and 2, and let
+<code>f</code> be the fraction of your total bet that you’re placing on
+event 1. We want <code>R1 * f = R2 * (1 - f)</code>, and the math from
+there to determine <code>f</code> is straight forward. To calculate
+<code>R</code>s, either fiddle w/ the sliders on Manifold or calculate
+from the fact that Manifold uses a <a
+href="https://manifold.markets/kjz/will-manifolds-developers-agree-wit">Constant
+Function Market Maker</a> payout function.<a href="#fnref3"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </aside>
  </div>

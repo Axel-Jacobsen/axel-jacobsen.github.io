@@ -18,7 +18,7 @@ So, let's do some calculations on what positions we can take, and what the likel
 
 So, by betting either `YY` or `NN`, it is very likely (based on our assumtions) that we will be correct on at least *one* of the markets! If that profit is greater than the cost of betting in both markets, we have a tidy guarunteed profit. Since both market probabilities were above 0.5, by betting `NN` we have a higher potential return, so let's do that.
 
-For ease of calculation, let's buy 100 mana worth of `N` contracts in both markets, so total cost so far is 200 Mana[^2] Here's the payout table:
+For ease of calculation, let's buy 100 mana worth of `N` contracts in both markets, so total cost so far is 200 Mana[^2][^3] Here's the payout table:
 
 | Outcome | Gross Profit | ROI |
 | ------- | ------------ | ---------- |
@@ -37,3 +37,4 @@ Also, if I'm wrong anywhere or there are any details that are missing, please le
 
 [^1]: Is this actually called arbitrage? I think it would be in the case where `YY` and `NN` are impossible. In the real world case, I guess this would be called hedging your bets? Dunno.
 [^2]: I think that the optimal strategy would be to invest more in the less probable market and less in the more probable market so the net profit would be the same for both. That way, expected return would be higher. But, for ease of explanation and just getting the trade in, we'll bet 100 on each market.
+[^3]: Yea, coming back to this, I think that the main idea above is correct. We want to bet such that the return for outcomes `YN` and `NY` are equal. Let `R1`, `R2` be the payout rates for event 1 and 2, and let `f` be the fraction of your total bet that you're placing on event 1. We want `R1 * f = R2 * (1 - f)`, and the math from there to determine `f` is straight forward. To calculate `R`s, either fiddle w/ the sliders on Manifold or calculate from the fact that Manifold uses a [Constant Function Market Maker](https://manifold.markets/kjz/will-manifolds-developers-agree-wit) payout function.
