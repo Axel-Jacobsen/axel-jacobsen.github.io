@@ -1,7 +1,7 @@
 # Manifold Markets Arbitrage
 # date 2023-11-21
 
-As [Sam Altman was fired,](https://openai.com/blog/openai-announces-leadership-transition) I got pulled into [prediction markets](https://en.wikipedia.org/wiki/Prediction_market), specifically [Manifold](https://manifold.markets/). It was great for both following news as it came out (answering questions like "why did that market just pop up?") and making some minor profits off of weirder, most likely false predictions. Overall, I was surprised with the ease with which a novice predictor (like myself) could take profits off of these questions.
+As [Sam Altman was fired,](https://openai.com/blog/openai-announces-leadership-transition) I got pulled into [prediction markets](https://en.wikipedia.org/wiki/Prediction_market), specifically [Manifold](https://manifold.markets/). It was great for both following news as it came out (answering questions like "why did that market just pop up?") and making some minor profits off of weirder, most likely false predictions. Overall, I was surprised with the ease at which a novice predictor (like myself) could take profits off of these questions.
 
 There are also pretty impressive arbitrage[^1] opportunities. For example, I found the following two questions:
 
