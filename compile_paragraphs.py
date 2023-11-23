@@ -56,12 +56,12 @@ def ingest_md(md_path: Path) -> tuple[str,datetime,str]:
         title = f.readline().strip().replace("# ", "")
         date = f.readline().strip()
 
-        if not date.startswith("#date"):
+        if not date.startswith("# date"):
             raise MalformedMarkdown(
                 f"date field is malformed; got {date=}"
             )
 
-        date = date.replace("#date ", "")
+        date = date.replace("# date ", "")
 
         try:
             dt_obj = datetime.strptime(date, "%Y-%m-%d")
