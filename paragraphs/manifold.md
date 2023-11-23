@@ -17,7 +17,7 @@ So, let's do some calculations on what positions we can take, and what the likel
 - `YN` be the outcome of Sam rejoining OpenAI and not starting a new company
 - `NN` be the outcome of Sam going to pick flowers or to live in a cabin in the woods or something.
 
-So, by betting either `YY` or `NN`, it is very likely (based on our assumtions) that we will be correct on at least *one* of the markets! If that profit is greater than the cost of betting in both markets, we have a tidy guarunteed profit. Since both market probabilities were above 0.5, by betting `NN` we have a higher potential return, so let's do that.
+So, by betting either `YY` or `NN`, it is very likely (based on our assumptions) that we will be correct on at least *one* of the markets! If that profit is greater than the cost of betting in both markets, we have a tidy guarunteed profit. Since both market probabilities were above 0.5, by betting `NN` we have a higher potential return, so let's do that.
 
 For ease of calculation, let's buy 100 mana worth of `N` contracts in both markets, so total cost so far is 200 Mana[^2][^3] Here's the payout table:
 
