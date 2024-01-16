@@ -1,7 +1,5 @@
 #! /usr/bin/env python3
 
-import re
-
 try:
     import pypandoc
 except ImportError as e:
@@ -67,7 +65,7 @@ def ingest_md(md_path: Path) -> tuple[str,datetime,str]:
             dt_obj = datetime.strptime(date, "%Y-%m-%d")
         except ValueError as e:
             raise MalformedMarkdown(
-                f"date field is malformed; should be Y-m-d, e.g. 1978-07-27"
+                "date field is malformed; should be Y-m-d, e.g. 1978-07-27"
             ) from e
 
         contents = f.read().strip()
