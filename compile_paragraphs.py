@@ -3,9 +3,7 @@
 try:
     import pypandoc
 except ImportError as e:
-    raise ImportError(
-        "install pypandoc! compiles markdown to html for me"
-    ) from e
+    raise ImportError("install pypandoc! compiles markdown to html for me") from e
 
 from pathlib import Path
 from datetime import datetime
@@ -31,7 +29,7 @@ def process_contents(contents: str) -> str:
 def titles_to_list(titles: list[tuple[str, datetime, Path]]) -> str:
     links = [
         f"<h3><a href={path.name}>{title}</a></h3>"
-        for title, _, path in sorted(titles, key=lambda t: t[1])
+        for title, _, path in sorted(titles, key=lambda t: t[1], reverse=True)
     ]
 
     html_formatted = "\n".join(links)
@@ -39,25 +37,19 @@ def titles_to_list(titles: list[tuple[str, datetime, Path]]) -> str:
 
 
 def write_html_doc(title: str, contents: str, html_path: Path):
-    new_doc = (
-        template
-            .replace("{{title}}", title)
-            .replace("{{content}}", contents)
-    )
+    new_doc = template.replace("{{title}}", title).replace("{{content}}", contents)
 
     with open(html_path, "w") as g:
         g.write(new_doc)
 
 
-def ingest_md(md_path: Path) -> tuple[str,datetime,str]:
+def ingest_md(md_path: Path) -> tuple[str, datetime, str]:
     with open(md_path) as f:
         title = f.readline().strip().replace("# ", "")
         date = f.readline().strip()
 
         if not date.startswith("# date"):
-            raise MalformedMarkdown(
-                f"date field is malformed; got {date=}"
-            )
+            raise MalformedMarkdown(f"date field is malformed; got {date=}")
 
         date = date.replace("# date ", "")
 
@@ -78,6 +70,7 @@ if __name__ == "__main__":
     titles_and_links: list[tuple[str, datetime, Path]] = []
 
     for md_path in PARAGRAPHS_DIR.glob("*.md"):
+        print(f"processing {md_path.name}...")
         title, date, contents = ingest_md(md_path)
 
         contents_html_formatted = process_contents(contents)
@@ -88,6 +81,7 @@ if __name__ == "__main__":
 
         write_html_doc(title, contents_html_formatted, html_path)
 
+    print("writing paragraphs home...")
     paragraphs_title = "paragraphs"
     paragraphs_contents = titles_to_list(titles_and_links)
     write_html_doc(
