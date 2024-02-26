@@ -20,13 +20,25 @@ a, .contact {
 }
 
 table {
- margin-left: auto;
- margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 th, td {
   border: 1px solid #ddd;
   padding: 12px;
+}
+
+#writing-links a:hover {
+  font-weight: bold;
+}
+
+#writing-links a {
+  font-size: 1.17em;
+  color: rgb(130, 60, 60);
+  text-decoration: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .homeheader, .row {
@@ -38,6 +50,10 @@ th, td {
 .titleCard, .col {
   display: flex;
   flex-direction: column;
+}
+
+.titleCard a:hover {
+  font-weight: bold;
 }
 
 .name {

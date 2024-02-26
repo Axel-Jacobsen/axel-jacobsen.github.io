@@ -28,8 +28,8 @@ def process_contents(contents: str) -> str:
 
 def titles_to_list(titles: list[tuple[str, datetime, Path]]) -> str:
     links = [
-        f"<h3><a href={path.name}>{title}</a></h3>"
-        for title, _, path in sorted(titles, key=lambda t: t[1], reverse=True)
+        f"\t\t\t\t<a href={path.name}>{dt.strftime('%Y-%m-%d')} {title}</a><br>"
+        for title, dt, path in sorted(titles, key=lambda t: t[1], reverse=True)
     ]
 
     html_formatted = "\n".join(links)
