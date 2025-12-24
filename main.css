@@ -98,3 +98,14 @@ th, td {
   max-width: 65%;
   margin-top: 2rem;
 }
+
+.solid-link {
+  display: block;
+}
+
+.solid-image {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin: 0 auto 1.5rem;
+}
